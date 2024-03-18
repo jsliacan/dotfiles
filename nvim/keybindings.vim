@@ -1,5 +1,8 @@
 let mapleader = ','
 
+"Exit terminal emulator
+tnoremap <Esc> <C-\><C-n>
+
 "Cursor Movement
 "Make cursor move by visual lines instead of file lines (when wrapping)
 map <up> gk

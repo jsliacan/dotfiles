@@ -11,13 +11,18 @@ if (has("termguicolors"))
  set termguicolors
 endif
 set background=dark
+set number
+set autochdir
 
 " Theme
 syntax enable
 let g:oceanic_next_terminal_bold = 1
 let g:oceanic_next_terminal_italic = 1
 let g:gruvbox_italic=1
-let g:everforest_background = 'soft'
-let g:everforest_better_performance = 1
+"let g:everforest_background = 'hard'
+"let g:everforest_better_performance = 1
 
-colorscheme everforest
+colorscheme moonfly
+
+" Start NERDTree and leave the cursor in it.
+" autocmd VimEnter * NERDTree

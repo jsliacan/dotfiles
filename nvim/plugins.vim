@@ -9,6 +9,11 @@ Plug 'tpope/vim-sensible'
 " https://github.com/tpope/vim-sleuth
 Plug 'tpope/vim-sleuth'
 
+" https://github.com/davidhalter/jedi-vim
+" pip3 install --user pynvim 
+" :UpdateRemotePlugins
+Plug 'davidhalter/jedi-vim'
+
 " Plug 'fatih/vim-go'
 " TODO recommended configuration
 " https://github.com/neovim/nvim-lspconfig#suggested-configuration
@@ -23,6 +28,8 @@ Plug 'nvim-lua/plenary.nvim'
 " https://github.com/nvim-telescope/telescope.nvim
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'https://gitlab.com/davvid/telescope-git-grep.nvim'
+" NERDTree https://github.com/preservim/nerdtree
+Plug 'preservim/nerdtree' 
 
 " https://github.com/ap/vim-css-color
 Plug 'ap/vim-css-color'
@@ -47,7 +54,10 @@ Plug 'sainnhe/everforest'
 " https://github.com/ray-x/starry.nvim
 " TODO multiple themes
 Plug 'ray-x/starry.nvim'
-"
+" https://github.com/rebelot/kanagawa.nvim
+Plug 'rebelot/kanagawa.nvim'
+" https://github.com/bluz71/vim-moonfly-colors
+Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
 
 
 
