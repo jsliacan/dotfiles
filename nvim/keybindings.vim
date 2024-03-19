@@ -2,6 +2,8 @@ let mapleader = ','
 
 "Exit terminal emulator
 tnoremap <Esc> <C-\><C-n>
+"List buffers and let user switch by pressing the right number
+:nnoremap <F5> :buffers<CR>:buffer<Space>
 
 "Cursor Movement
 "Make cursor move by visual lines instead of file lines (when wrapping)

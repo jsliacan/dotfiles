@@ -40,6 +40,7 @@ Plug 'ap/vim-css-color'
 " TODO
 " statusbar
 " https://github.com/vim-airline/vim-airline
+Plug 'vim-airline/vim-airline'
 "
 "
 " Themes
