@@ -6,6 +6,16 @@ tnoremap <Esc> <C-\><C-n>
 :nnoremap <F5> :buffers<CR>:buffer<Space>
 
 "Cursor Movement
+"Make cursor move with Ctrl+hjkl in both insert and normal modes
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+cnoremap <C-h> <Left>
+cnoremap <C-j> <Down>
+cnoremap <C-k> <Up>
+cnoremap <C-l> <Right>
+
 "Make cursor move by visual lines instead of file lines (when wrapping)
 map <up> gk
 imap <up> <C-o>gk
