@@ -26,3 +26,6 @@ colorscheme moonfly
 
 " Start NERDTree and leave the cursor in it.
 " autocmd VimEnter * NERDTree
+
+" let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts=1
