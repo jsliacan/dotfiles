@@ -1,3 +1,5 @@
+# Neovim
+
 ## Install
 
 ```bash
@@ -32,3 +34,28 @@ Powerline fonts for `vim-airline` statusline to work ok. See this [StackExchange
 let g:airline_powerline_fonts=1
 ```
 
+# NvChad
+
+Basically an IDE based on nvim. See the [website](https://nvchad.com/) or [github](https://github.com/NvChad/NvChad). 
+
+## Install
+
+Follow instructions on the website (see above). Including removal of all nvim files with 
+
+```bash
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+```
+
+There are some changes after installation.
+
+1. Enable `vim-fugitive` plugin for git. Do this by introducing `fugitive.lua` file in `lua/plugins` dir of `~/.config/nvim` dir. 
+2. Re-map `jj` in normal mode to `<ESC>`.
+3. Simplify the statusline (see `lua/chadrc.lua` file with `M.statusline` block)
+4. Pick a theme with `<leader>th`. Set it with 
+    ```
+    require("nvconfig").base46.theme = 'yoru'
+    require("base46").load_all_highlights()
+    ```
+5. 
