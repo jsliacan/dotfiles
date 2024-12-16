@@ -47,6 +47,7 @@ rm -rf ~/.config/nvim
 rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 ```
+Need to install Nerd fonts. Download them from where the NvChad README points [to](https://www.nerdfonts.com/font-downloads). Then it's needed to install them. This can be done by unzipping the dir, finding the correc `.ttf` file and right-click > open with > Fonts (app). Then `Install` button on top right. After a while, they should be installed. Then This font needs to be set as Terminal's default font. So open Terminal, go to profile, set custom font, and there should be this freshly installed Nerd font. Then icons on the statusline should be OK.
 
 There are some changes after installation.
 
